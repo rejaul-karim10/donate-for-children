@@ -5,6 +5,9 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
+
+/*Top section start*/
+
 .top-banner {
     width: 100%;
     height: 100vh;
@@ -48,6 +51,9 @@ body {
     border-radius: 50px;
 }
 
+
+/*Second section start*/
+
 .second-section {
     padding-top: 80px;
     padding-bottom: 80px;
@@ -79,7 +85,7 @@ body {
     border-radius: 5px;
 }
 
-.second-amount {
+.amount-area {
     font-size: 30px;
     color: rgba(43, 37, 37, 0.584);
     display: flex;
@@ -108,12 +114,30 @@ body {
     margin-bottom: 0;
 }
 
-hr {
+.other-amount-item hr {
+    border: none;
+    height: 2px;
     width: 50%;
-    margin-top: 0;
+    background: #c8c4c462;
+    margin-top: 30px;
     margin-bottom: 40px;
-    border: 1px solid #c8c4c462;
 }
+
+#input-feild {
+    border: none;
+    border-bottom: 4px solid #c8c4c462;
+    outline: none;
+    font-size: 18px;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+.other-amount-button {
+    padding-top: 40px;
+}
+
+
+/*Third section start*/
 
 .third-section {
     padding-top: 50px;
@@ -223,12 +247,12 @@ hr {
     border-radius: 50px;
     padding-left: 30px;
     padding-top: 15px;
-    padding-right: 40px;
+    padding-right: 100px;
     padding-bottom: 15px;
 }
 
 .email-button {
-    border: 0;
+    border: none;
     border-radius: 50px;
     color: white;
     padding-left: 40px;
@@ -238,6 +262,9 @@ hr {
     background-image: linear-gradient(#ee2a7b, #ee2a7cce);
     font-size: 16px;
 }
+
+
+/*Footer section start*/
 
 .footer-section {
     text-align: center;
