@@ -161,6 +161,84 @@ hr {
     color: black;
 }
 
+.middle-banner {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(#070621d2, #010310d1), url(images/children1.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.middle-banner-content {
+    text-align: center;
+    font-size: 18px;
+    color: white;
+    line-height: 2;
+    padding-top: 300px;
+    padding-left: 300px;
+    padding-right: 300px;
+    padding-bottom: 20px;
+}
+
+.middle-banner-content h1 {
+    font-size: 40px;
+}
+
+.middle-banner-content p {
+    font-size: 18px;
+}
+
+.donation-area {
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+}
+
+.donation-area h1 {
+    font-size: 40px;
+}
+
+.donation-area p {
+    font-size: 18px;
+}
+
+.email-optin {
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 150px;
+}
+
+.email-optin h1 {
+    font-size: 40px;
+}
+
+.email-optin p {
+    font-size: 18px;
+    line-height: 2;
+    padding-bottom: 30px;
+}
+
+.email-box {
+    border: 2px solid #ee2a7b;
+    border-radius: 50px;
+    padding-left: 30px;
+    padding-top: 15px;
+    padding-right: 40px;
+    padding-bottom: 15px;
+}
+
+.email-button {
+    border: 0;
+    border-radius: 50px;
+    color: white;
+    padding-left: 40px;
+    padding-top: 15px;
+    padding-right: 40px;
+    padding-bottom: 15px;
+    background-image: linear-gradient(#ee2a7b, #ee2a7cce);
+    font-size: 16px;
+}
+
 .footer-section {
     text-align: center;
     background-color: black;
