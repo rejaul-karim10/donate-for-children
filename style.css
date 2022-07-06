@@ -40,7 +40,7 @@ body {
     font-size: 16px;
     text-transform: uppercase;
     color: white;
-    background-image: linear-gradient(#ee2a7b, #ee2a7d);
+    background-image: linear-gradient(#ee2a7b, #ee2a7cce);
     padding-left: 40px;
     padding-right: 40px;
     padding-top: 15px;
@@ -88,7 +88,7 @@ body {
     padding-right: 100px;
 }
 
-.amount-item-design {
+.amount-item {
     background-color: #c8c4c462;
     padding-left: 50px;
     padding-top: 50px;
@@ -97,7 +97,7 @@ body {
     border-radius: 10px;
 }
 
-.amount-item-design.border {
+.amount-item.border {
     border: 4px solid #ee2a7b;
     color: #ee2a7b;
 }
@@ -159,4 +159,22 @@ hr {
     border-radius: 10px;
     border: 4px solid #ee2a7b;
     color: black;
+}
+
+.footer-section {
+    text-align: center;
+    background-color: black;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.footer-section h2 {
+    font-size: 25px;
+    color: #ee2a7b;
+}
+
+.footer-section p {
+    color: white;
+    font-size: 19px;
+    line-height: 2;
 }
